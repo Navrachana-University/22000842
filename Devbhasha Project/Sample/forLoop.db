@@ -1,0 +1,17 @@
+dharma ForLoopWithBreak {
+    prakruti sankhya i = 1;
+
+    lekha("For loop with break:");
+
+    yavat (i <= 10) {
+        yadi (i > 5) {
+            lekha("Breaking at i = " + i);
+            // No virama; supported — so simulate break with yavat termination
+            i = 11; // force exit
+        } anyatha {
+            lekha(i);
+            i = i + 1;
+        }
+    }
+}
+samapti

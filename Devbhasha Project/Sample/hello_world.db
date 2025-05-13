@@ -1,0 +1,6 @@
+// Basic Hello World program
+
+dharma HelloWorld {
+    lekha("Namaste, World!");
+}
+samapti

@@ -1,0 +1,10 @@
+dharma SimpleIfTest {
+    prakruti sankhya x = 10;
+    
+    yadi (x > 5) {
+        lekha("x is greater than 5");
+    } anyatha {
+        lekha("x is not greater than 5");
+    }
+}
+samapti

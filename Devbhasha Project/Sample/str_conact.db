@@ -1,0 +1,24 @@
+// Testing string concatenation
+
+dharma StringConcatTest {
+    prakruti shabda firstName = "Krishna";
+    prakruti shabda lastName = "Vasudeva";
+    
+    // Simple concatenation
+    prakruti shabda fullName = firstName + " " + lastName;
+    lekha("Full name: " + fullName);
+    
+    // Concatenation with numbers
+    prakruti sankhya age = 10000;
+    lekha(firstName + " is " + age + " years old.");
+    
+    // Multiple concatenation
+    prakruti shabda address = "Mathura" + ", " + "Vrindavan" + ", " + "Dwarka";
+    lekha("Places of " + firstName + ": " + address);
+    
+    // Concatenation with expressions
+    prakruti sankhya a = 5;
+    prakruti sankhya b = 10;
+    lekha("Sum of " + a + " and " + b + " is " + (a + b));
+}
+samapti

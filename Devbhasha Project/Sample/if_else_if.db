@@ -1,0 +1,14 @@
+dharma ElseIfTest {
+    prakruti sankhya x = 25;
+
+    yadi (x > 30) {
+        lekha("x is greater than 30");
+    } anyatha {
+        yadi (x > 20) {
+            lekha("x is greater than 20");
+        } anyatha {
+            lekha("x is not greater than 20");
+        }
+    }
+}
+samapti

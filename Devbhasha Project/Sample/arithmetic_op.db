@@ -1,0 +1,25 @@
+// Testing arithmetic operations
+
+dharma ArithmeticTest {
+    prakruti sankhya a = 20;
+    prakruti sankhya b = 10;
+    
+    prakruti sankhya sum = a + b;
+    prakruti sankhya difference = a - b;
+    prakruti sankhya product = a * b;
+    prakruti sankhya quotient = a / b;
+    prakruti sankhya remainder = a % b;
+    
+    // Print results
+    lekha("a = " + a + ", b = " + b);
+    lekha("Sum: " + sum);
+    lekha("Difference: " + difference);
+    lekha("Product: " + product);
+    lekha("Quotient: " + quotient);
+    lekha("Remainder: " + remainder);
+    
+    // Complex expression
+    prakruti sankhya result = (a + b) * (a - b) / 5;
+    lekha("(a + b) * (a - b) / 5 = " + result);
+}
+samapti

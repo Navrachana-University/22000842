@@ -1,0 +1,26 @@
+// Testing increment and decrement operators
+
+dharma IncrementTest {
+    prakruti sankhya counter = 5;
+    
+    lekha("Initial value: " + counter);
+    
+    // Post-increment
+    prakruti sankhya postIncResult = counter++;
+    lekha("After counter++, counter = " + counter + ", result = " + postIncResult);
+    
+    // Post-decrement
+    prakruti sankhya postDecResult = counter--;
+    lekha("After counter--, counter = " + counter + ", result = " + postDecResult);
+    
+    // Multiple operations
+    counter++;
+    counter++;
+    lekha("After two increments: " + counter);
+    
+    counter--;
+    counter--;
+    counter--;
+    lekha("After three decrements: " + counter);
+}
+samapti

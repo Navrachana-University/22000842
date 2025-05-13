@@ -1,0 +1,37 @@
+// Testing nested if statements
+
+dharma NestedIfTest {
+    prakruti sankhya age = 25;
+    prakruti satya hasLicense = haan;
+    
+    yadi (age >= 18) {
+        lekha("You are an adult.");
+        
+        yadi (age < 21) {
+            lekha("But you're not yet 21.");
+        } anyatha {
+            lekha("And you're at least 21.");
+            
+            yadi (age >= 65) {
+                lekha("You're a senior citizen.");
+            } anyatha {
+                lekha("You're between 21 and 64.");
+            }
+        }
+        
+        yadi (hasLicense) {
+            lekha("You can drive.");
+        } anyatha {
+            lekha("You cannot drive without a license.");
+        }
+    } anyatha {
+        lekha("You are not an adult.");
+        
+        yadi (age < 13) {
+            lekha("You are a child.");
+        } anyatha {
+            lekha("You are a teenager.");
+        }
+    }
+}
+samapti

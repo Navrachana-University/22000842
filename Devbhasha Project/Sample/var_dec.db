@@ -1,0 +1,35 @@
+// Testing variable declarations
+
+dharma VariableTest {
+    // Integer
+    prakruti sankhya a = 10;
+    
+    // Float
+    prakruti dashamika b = 3.14;
+    
+    // Character
+    prakruti akshara c = 'A';
+    
+    // String
+    prakruti shabda name = "Arjuna";
+    
+    // Boolean
+    prakruti satya isActive = haan;
+    
+    // Constant
+    nitya sankhya PI = 3.14159;
+    
+    // Variable declaration without initialization
+    prakruti sankhya uninitializedVar;
+    uninitializedVar = 42;
+    
+    // Print all variables
+    lekha("a = " + a);
+    lekha("b = " + b);
+    lekha("c = " + c);
+    lekha("name = " + name);
+    lekha("isActive = " + isActive);
+    lekha("PI = " + PI);
+    lekha("uninitializedVar = " + uninitializedVar);
+}
+samapti

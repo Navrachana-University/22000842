@@ -1,0 +1,14 @@
+dharma LoopTest {
+    prakruti sankhya i = 0;
+
+    yavat (i < 10) {
+        i = i + 1;
+
+        yadi (i % 2 == 0) {
+            // No 'continue' available, so skip printing manually
+        } anyatha {
+            lekha("Odd number: " + i);
+        }
+    }
+}
+samapti
