@@ -14,8 +14,8 @@ The language follows principles derived from ancient Indian texts:
 - Enrollment ID: 22000842
 
 ## Project Components
-1. `devbhasha_keywords.pdf` - Comprehensive reference of all Devbhasha keywords
-2. `devbhasha_manual.pdf` - Language specification and user manual
+1. `Devbhasha Keywords Reference.pdf` - Comprehensive reference of all Devbhasha keywords
+2. `Devbhasha Language Specification.pdf` - Language specification and user manual
 
 ## Running Devbhasha Programs
 
