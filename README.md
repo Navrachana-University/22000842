@@ -23,24 +23,34 @@ The language follows principles derived from ancient Indian texts:
 To compile and run Devbhasha programs, use the following commands:
 
 #### Generate parser from YACC file
+```
 bison -d devbhasha.y
+```
 
 #### Generate lexer from Flex file
+```
 flex devbhasha.l
+```
 
 #### Compile the generated files
+```
 gcc lex.yy.c devbhasha.tab.c -o devbhasha
+```
 
 #### Run a program
+```
 devbhasha.exe Sample/hello_world.db
+```
 
 ### Example Program
 Here's a simple "Hello World" program in Devbhasha:
 
+```
 dharma HelloWorld {
     lekha("Namaste, World!");
 }
 samapti
+```
 
 ### System Requirements
 - GCC compiler
